@@ -1,0 +1,58 @@
+.contact-card {
+  width: 35%;
+  height:50%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #F5F7F8;
+}
+
+.contact-card h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"] {
+  height: 40px;
+}
+
+.input-group textarea {
+  min-height: 100px;
+}
+
+.submit-button {
+  background-color: #005B41;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #003325;
+}
+  
