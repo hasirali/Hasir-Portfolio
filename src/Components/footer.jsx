@@ -19,11 +19,11 @@ function Footer() {
             Welcome to my personal portfolio, where I share my professional journey, showcase my skills, and express my passion for creativity and innovation. Explore my work and experience the story behind each project.
           </p>
           <div className='socialMedia'>
-            <Link to={'https://www.instagram.com/zayyeem/?hl=bg' }> <InstagramIcon/> </Link>
-            <Link to={'https://twitter.com/KhalidJafri11'}><TwitterIcon/></Link>
-            <Link to={'https://www.facebook.com/zayeem.haider/'}><FacebookIcon/></Link>
-            <Link to={'https://www.linkedin.com/in/khalid-haider-jafri-78368220a/'}><LinkedInIcon/></Link>
-            <Link to={'https://github.com/xayyeem'}><GithubIcon/></Link>
+            <Link to={'https://www.instagram.com/haxir_ali/' }target="_blank"> <InstagramIcon/> </Link>
+            <Link to={'https://twitter.com/haxir_ali'}target="_blank"><TwitterIcon/></Link>
+            <Link to={'https://www.facebook.com/profile.php?viewas=100000686899395&id=100095270901385'}target="_blank"><FacebookIcon/></Link>
+            <Link to={'https://www.linkedin.com/in/hasir-ali-b649851aa/'}target="_blank"><LinkedInIcon/></Link>
+            <Link to={'https://github.com/hasirali' }target="_blank"><GithubIcon/></Link>
         </div>
         </div>
         <div class="footer__col">

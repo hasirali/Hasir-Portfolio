@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import logo from '../assets/logo.png';
-import ReorderIcon from '@material-ui/icons/Reorder';
-import { useLocation } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import '../styles/Navbar.css';
+import React, { useState, useEffect } from "react";
+import logo from "../assets/logo.png";
+import ReorderIcon from "@material-ui/icons/Reorder";
+import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
 
 function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
   const [extendNavbar, setExtendNavbar] = useState(false);
   const location = useLocation();
-  const email = 'hasira84@gmail.com';
+  const email = "hasira84@gmail.com";
 
   const toggleNav = () => {
     setNavOpen(!navOpen);
@@ -40,13 +40,12 @@ function Navbar() {
           </div>
           <div className="nav__menu__btn" onClick={toggleNav}>
             <span>
-              <i className={navOpen ? 'ri-close-line' : 'ri-menu-line'}></i>
+              <i className={navOpen ? "ri-close-line" : "ri-menu-line"}></i>
             </span>
           </div>
         </div>
 
-        <ul className={`nav__links ${navOpen ? 'open' : ''}`}>
-
+        <ul className={`nav__links ${navOpen ? "open" : ""}`}>
           <li className="link">
             <Link to="/">Home</Link>
           </li>
