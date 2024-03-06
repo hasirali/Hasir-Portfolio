@@ -8,16 +8,24 @@ function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
   return (
-    <div className="project">
-      <h1> {project.name}</h1>
-      <img src={project.image} />
-      <p>
-        <b>Skills:</b> {project.skills}
-      </p>
-      <Link to={project.url} target="_blank">
-        <GithubIcon />
-      </Link>
-
+    <div className="topper">
+      <div className="project">
+        <h1> {project.name}</h1>
+        <img src={project.image} />
+        <p>
+          <b>Skills:</b> {project.skills}
+        </p>
+        <div className="link">
+          <Link to={project.url} target="_blank">
+           <button>
+            <GithubIcon />
+            </button> 
+          </Link>
+          <Link to={project.live} target="_blank">
+            <button>Live Link</button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

@@ -16,7 +16,7 @@ function Home() {
           Hasir Ali is a video Editor, videographer and a skilled Programmer in C/C++, web development and had a clean grip on DSA. He is also an content creator on Instagram with a 30k+ of followers. He is currently persuing his under graduation in Information Technology from United college of engineering and research. 
         </p>
         <div class="header__btn  ">
-          <button class="btn"><a href="https://drive.google.com/file/d/1lFwzCKVcGcM2BbRFmkxQ9DPKpYu50F3P/view?usp=drive_link" class="btn">My Resume</a></button>
+          <button class="btn"><a href="https://drive.google.com/file/d/1S0iQGShlDhbMnnLuF36HL2rEV6j7iCFe/view?usp=drive_link" class="btn">My Resume</a></button>
         </div>
       </div>
     </div>
