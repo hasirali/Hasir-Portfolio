@@ -9,10 +9,10 @@ import GithubIcon from "@material-ui/icons/Github";
 import '../styles/Footer.css'
 function Footer() {
   return (
-    <footer class="footer">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <div class="footer__logo">
+    <footer className="footer">
+      <div className="section__container footer__container">
+        <div className="footer__col">
+          <div className="footer__logo">
             <a href="#"><img src={logo} alt="logo" />Hasir Ali</a>
           </div>
           <p>
@@ -26,9 +26,9 @@ function Footer() {
             <Link to={'https://github.com/hasirali' }target="_blank"><GithubIcon/></Link>
         </div>
         </div>
-        <div class="footer__col">
+        <div className="footer__col">
           <h4>About Me</h4>
-          <div class="footer__links">
+          <div className="footer__links">
             <Link to={'/'} > Home </Link>
             <Link to={'/About'} > About </Link>
             <Link to={'/Education'} > Education </Link>
@@ -36,15 +36,15 @@ function Footer() {
             <Link to={'/Contact'} > Contact </Link>
           </div>
         </div>
-        <div class="footer__col">
+        <div className="footer__col">
           <h4>Contact</h4>
-          <div class="footer__links">
+          <div className="footer__links">
             <a href="tel:7521989156">Phone</a>
             <a href="mailto:hasira84@gmail.com">Email</a>
           </div>
         </div>
       </div>
-      <div class="footer__bar">
+      <div className="footer__bar">
         Copyright ©Hasir Ali
       </div>
     </footer>

@@ -12,18 +12,18 @@ import '../styles/Experience.css'
 function Skills() {
   return (
     <>
-      <section class="section__container about__container" id="experience">
-        <div class="about__image">
+      <section className="section__container about__container" id="experience">
+        <div className="about__image">
 
           <img src={experience} alt="about" />
         </div>
-        <div class="about__content">
-          <h2 class="section__header">Experience</h2>
-          <p class="section__description">
+        <div className="about__content">
+          <h2 className="section__header">Experience</h2>
+          <p className="section__description">
             "Welcome to my 'Achievements' corner, where I proudly present some notable milestones in my academic and professional journey. These accomplishments showcase my dedication to continuous improvement, problem-solving, and my commitment to excellence:"
           </p>
-          <div class="about__grid">
-            <div class="about__card">
+          <div className="about__grid">
+            <div className="about__card">
               <div>
                 <h4>Tata Imaginative Challenge (Round 1 Qualifier) - September 2023:</h4>
                 <p>
@@ -31,7 +31,7 @@ function Skills() {
                 </p>
               </div>
             </div>
-            <div class="about__card">
+            <div className="about__card">
 
               <div>
                 <h4>Newton School Coding Contest - July 2022:</h4>
@@ -40,7 +40,7 @@ function Skills() {
                 </p>
               </div>
             </div>
-            <div class="about__card">
+            <div className="about__card">
 
               <div>
                 <h4>Aarambh'2022 - SIET (Shambhunath Institute of Engineering and Technology):</h4>
@@ -50,7 +50,7 @@ function Skills() {
               </div>
             </div>
 
-            <div class="about__card">
+            <div className="about__card">
               <div>
                 <h4>Job-A-Thon 23 Hiring Challenge:</h4>
                 <p>
@@ -65,53 +65,53 @@ function Skills() {
 
 
 
-      <section class="section__container project__container" id="skills">
-        <h2 class="section__header">Social Media</h2>
-        <p class="section__description">
+      <section className="section__container project__container" id="skills">
+        <h2 className="section__header">Social Media</h2>
+        <p className="section__description">
           Welcome to my Social Media corner! This is where you'll find links to my coding profiles on platforms like GeeksforGeeks, LeetCode, and HackerRank. These are not just profiles; they represent my journey through the exciting world of problem-solving, coding challenges, and continuous learning. Whether it's tackling algorithmic puzzles, improving my data structures knowledge, or showcasing my coding skills, you can explore it all right here. Feel free to connect with me on these platforms to see my coding progress and share in the joy of problem-solving
         </p>
 
-        <div class="skill__grid">
+        <div className="skill__grid">
 
 
-          <div class="skill__card">
+          <div className="skill__card">
             <a href="https://auth.geeksforgeeks.org/user/hasira804/" target='_blank'>
-              <img src={bg} alt="bg" class="skill__bg" />
+              <img src={bg} alt="bg" className="skill__bg" />
               <img src={tech1} alt="bg" />
-              <div class="skill__content">
+              <div className="skill__content">
                 <h4>GeeksForGeeks</h4>
                 <p>GeeksForGeeks</p>
               </div>
             </a>
           </div>
 
-          <div class="skill__card">
+          <div className="skill__card">
             <a href="https://leetcode.com/hasira804/" target='_blank'>
-              <img src={bg} alt="bg" class="skill__bg" />
+              <img src={bg} alt="bg" className="skill__bg" />
               <img src={tech2} alt="bg" />
-              <div class="skill__content">
+              <div className="skill__content">
                 <h4>LeetCode</h4>
                 <p>LeetCode </p>
               </div>
             </a>
           </div>
 
-          <div class="skill__card">
+          <div className="skill__card">
             <a href="https://www.hackerrank.com/hasira804" target='_blank'>
-              <img src={bg} alt="bg" class="skill__bg" />
+              <img src={bg} alt="bg" className="skill__bg" />
               <img src={tech4} alt="bg" />
-              <div class="skill__content">
+              <div className="skill__content">
                 <h4>HackerRank</h4>
                 <p>HackerRank</p>
               </div>
             </a>
           </div>
 
-          <div class="skill__card">
+          <div className="skill__card">
             <a href="https://github.com/hasirali" target='_blank'>
-              <img src={bg} alt="bg" class="skill__bg" />
+              <img src={bg} alt="bg" className="skill__bg" />
               <img src={tech3} alt="bg" />
-              <div class="skill__content">
+              <div className="skill__content">
                 <h4>Github</h4>
                 <p>Github</p>
               </div>
